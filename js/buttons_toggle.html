@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Introduction</title>
+    <style>
+        div {
+            max-width: 500px;
+            margin: auto;
+            border: 3px solid #00bbdd;
+            padding: 10px;
+        }
+        button {
+        background-color: #00bbdd;
+        }
+        button:hover, button:active {
+            background-color: rgb(97, 49, 209);
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+    <h2>What Can JavaScript Do?</h2>
+
+    <p>JavaScript can change HTML attribute values.</p>
+    
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+    <div>
+    <button onclick="document.getElementById('location').innerHTML='Story about Boston is just a way of expressing stories about Boston. Relax and enjoy. What else would you like to know about this country'">Boston</button>
+    <button onclick="document.getElementById('location').innerHTML='Story about France is just a way of expressing stories about France. Relax and enjoy. What else would you like to know about this country'">Paris</button>
+    <button onclick="document.getElementById('location').innerHTML='Story about Tokyo is just a way of expressing stories about Tokyo. Relax and enjoy. What else would you like to know about this country'">Japan</button>
+    <p id="location">Story about Boston is just a way of expressing stories about Boston. Relax and enjoy. What else would you like to know about this country</p>
+</div>
+    
+</body>
+</html>
